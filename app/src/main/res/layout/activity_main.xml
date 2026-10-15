@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- Flashcard Question Side (Recto) -->
+    <TextView
+        android:id="@+id/card_question"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#419EB8"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Who is the 44th President of the United States?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <!-- Flashcard Answer Side (Verso) -->
+    <TextView
+        android:id="@+id/card_answer"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Barack Obama"
+        android:textColor="#333333"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
